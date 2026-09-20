@@ -1,0 +1,66 @@
+# Commands of Terminal
+code .
+cd..
+cd
+mkdir
+ni
+Remove-Item "filename.ipynb"
+
+Rename-Item "old-name.ipynb" "new-name.ipynb"
+
+
+Current location	pwd
+Files/folders dekhna	dir
+Folder ke andar jana	cd FolderName
+Ek folder peeche	cd ..
+Folder banana	mkdir FolderName
+File banana	New-Item file.py
+File delete	Remove-Item file.py
+Folder delete	Remove-Item Folder -Recurse
+Rename	Rename-Item old new
+File copy	Copy-Item old new
+File move	Move-Item file folder
+Terminal clear	cls
+
+
+ri "xyz.py"
+ren "old.py" "new.py"
+ls          # Get-ChildItem → files/folders dekhna
+cd          # Set-Location → folder change
+pwd         # Get-Location → current location
+ri          # Remove-Item → delete
+cp          # Copy-Item → copy
+mv          # Move-Item → move
+
+
+# Shortcuts of Vs code
+
+Ctrl + B
+
+Ctrl + ,  = Settings
+
+Ctrl + shift + X = Extensions
+
+Ctrl + shift + E = Files Explorer 
+
+Ctrl + shift + F = Find files by names
+
+Ctrl + shift + D = Run and Debug
+
+ctrl + tab = got to next file 
+ctrl + shift + tab = 
+
+Ctrl + shift + ~ = ternminal 
+
+
+
+
+
+# GitHub Commands
+
+git status
+git add .
+git commit -m "Added today's practice"
+git push
+git pull
+
